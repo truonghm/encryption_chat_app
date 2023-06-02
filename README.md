@@ -2,8 +2,6 @@
 
 ## Set up
 
-## Set up
-
 1. Create a virtual environment
 2. Install the required packages: 
 

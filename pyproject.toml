@@ -1,0 +1,34 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "messaging-app-demo"
+version = "0.0.1"
+readme = "README.md"
+requires-python = ">=3.10, <3.11"
+dependencies = [
+  "readchar==4.0.5",
+  "cryptography==40.0.2",
+  "websockets==11.0.3",
+  "aiomonitor==0.4.5",
+]
+
+[tool.ruff]
+ignore = ["E402","F841","F401"]
+select = ["E", "F", "I", "W"]
+line-length = 120
+fixable = ["I"]
+exclude = [".env", ".venv", "venv", "notebooks"]
+show-source = true
+
+[tool.black]
+line-length = 120
+extend-exclude = '''
+/(
+  | .env
+  | .venv
+  | venv
+  | notebooks
+)/
+'''

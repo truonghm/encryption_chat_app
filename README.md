@@ -51,4 +51,7 @@ python keygen.py <username>
 
 ## Demo
 
-![](https://raw.githubusercontent.com/truonghm/encryption_chat_app/master/app_demo.mp4)
+
+https://github.com/truonghm/encryption_chat_app/assets/10404416/0cdca4bf-b199-4cbf-ac4f-6f2e79180da3
+
+
